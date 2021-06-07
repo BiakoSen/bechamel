@@ -1,0 +1,14 @@
+com/bechamel/MainApplication.java
+ com.bechamel.MainApplication
+ com.bechamel.MainApplication$1
+com/bechamel/BuildConfig.java
+ com.bechamel.BuildConfig
+com/bechamel/MainActivity.java
+ com.bechamel.MainActivity
+com/bechamel/ReactNativeFlipper.java
+ com.bechamel.ReactNativeFlipper
+ com.bechamel.ReactNativeFlipper$1
+ com.bechamel.ReactNativeFlipper$2
+ com.bechamel.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
