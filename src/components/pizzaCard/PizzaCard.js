@@ -14,10 +14,26 @@ const PizzaCard = (props) => {
         <View style={{
             marginHorizontal: 10,
             marginVertical: 5,
-            alignItems: 'center'
+            alignItems: 'center',
+            height: 175,
+            justifyContent: 'flex-end'
         }}>
+
             <View style={{
-                backgroundColor: '#1b1b1b',
+                elevation: 1, position: 'absolute',
+                top: 0,
+                right: 0,
+            }}>
+                <Image style={{
+                    width: 135,
+                    height: 135,
+                    borderRadius: 100,
+                }}
+                    source={{ uri: pizza.imageUri }} />
+            </View>
+
+            <View style={{
+                backgroundColor: '#37474f',
                 height: 125,
                 width: '100%',
                 flexDirection: 'row',
@@ -45,18 +61,12 @@ const PizzaCard = (props) => {
 
                     <Text style={{ color: 'white' }}>Precio: C${pizza.price}</Text>
                 </View>
-                <Image style={{
-                    width: 125,
-                    height: 125,
-                    borderRadius: 100,
-                }}
-                    source={{ uri: pizza.imageUri }} />
             </View>
 
             <View style={{
                 height: 40,
                 width: '90%',
-                backgroundColor: '#424242',
+                backgroundColor: '#6d6d6d',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
